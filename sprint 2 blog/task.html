@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>The difference between ID and Classes</title>
+        <link href="app.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="border">
+            <nav class="task-text">
+        <h1 class="heading" >The defference between ID's and Classes</h1>
+        <p>We use ID's and Classes as a way to help manipulate HTML content. We can use basic elemants like <!--<h1>,<p> and <ul>--> but these will not always do the job that we want. For example using <p> will render every paragraph with the same styling. If we would like to style a paragraph differently thats where we would use ID's and Classes. The ID is also often used in Javascript E.g. getElementById to retrieve a particular element. In the case of Css ther is nothing you can do with an ID that you can't do with a class and vice versa. Javascript on the other hand depends on there being only one page element with any particular id, or else the commonly used getElementbyId function wouldn't be dependable. </p>
+    
+        <h2>ID's are unique</h2>
+        <ul class="classID">
+            <li>Each elemaent can only have one ID</li>
+            <li>Each page can have only one element with that ID</li>
+        </ul>
+        <h2>Classes are not unipue</h2>
+        <ul class="classID">
+            <li>You can use the same class on multiple elements</li>
+            <li>You can use multiple classes on the same element</li>
+        </ul>
+        <h2>An interesting analogy</h2>
+        <p>Take an iPod in a store. On the packaging will be a bar code. This tells the store what the product is, so when it is scanned, the system knows exactly what the product is and what it costs. It might even be able to know what color it is or where it was kept in the store. All iPod of this same type have the exact same bar code on them.
+
+            The iPod will also have a serial number on it which is absolutely unique to any other iPod (or any other device) in the world. The serial number doesn’t know the price. It could, but for the store this wouldn’t be a very efficient way to store and use that data. Much easier to use the barcode, so that for example, if the price changed, you could just change the price for that bar code and not every individual serial number in your system.
+            
+            This is much like ID’s and Classes. Information that is reusable should be kept in a class and information that is totally unique should be kept in an ID.</p>
+        <a class="sprint" href="index.html">Home </a>
+    </nav>
+    </div>
+    </body>
+</html>

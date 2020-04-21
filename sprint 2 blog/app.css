@@ -1,0 +1,60 @@
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 180px;
+    text-align: center;
+    color: #202020;
+}
+.heading {
+    font-size: 75px;
+}
+
+.picture {
+    width: 33%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c2efef;
+    background-image: url('images/view.jpg');
+    text-align: center;
+}
+
+.select-sprint {
+    list-style-type: none;
+    display: flex;
+    padding: 5px 70px;
+}
+
+.border {
+    border: 10px solid;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 10px;
+    padding: 0px;
+}
+
+.sprint {
+    margin: 3vw;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.about {
+    text-align: center;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #202020;
+}
+
+nav {
+    background-color: ;
+}
+.classID {
+    list-style-type: none;
+}
+.task-text {
+    padding: 2em;
+}
