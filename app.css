@@ -1,5 +1,5 @@
 h1 {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Reenie Beanie', cursive;
     font-size: 180px;
     text-align: center;
     color: #202020;
@@ -17,17 +17,19 @@ body {
     background-color: #c2efef;
     background-image: url('images/view.jpg');
     text-align: center;
+    border: 10px solid;
+    border-radius: 3px;
 }
 
 .select-sprint {
     list-style-type: none;
     display: flex;
     padding: 5px 70px;
+    display: inline-flex;
 }
 
 .border {
-    border: 10px solid;
-    border-radius: 3px;
+    
     display: inline-block;
     margin: 10px;
     padding: 0px;
@@ -57,4 +59,8 @@ nav {
 }
 .task-text {
     padding: 2em;
+}
+
+ul {
+    list-style-type: none;
 }
